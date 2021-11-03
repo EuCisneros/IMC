@@ -17,56 +17,34 @@
         <li><a href="#">  ---  </a></li>
         <li><a href="#">  ---  </a></li>
     </ul>
+ <br>
+    <br>
+    <div class="marco-calculadora">
+        <div class="salida">
+            <p>Ingrese su Estatura (m)
+                <input class="pantalla" type="text" id="estatura" placeholder="0"></p>
+        </div>
+        <div class="salida">
+            <p>Ingrese su Peso (kg)
+                <input class="pantalla" type="text" id="estatura" placeholder="0"></p>
+        </div>
+        
+        <button id="calcular">CALCULAR</button>
+        <button id="borrar">REINICIAR</button>
+    
+        <P>Su IMC es<span id ="IMC"></P>
+        <P>Su Peso es<span id ="resp"></span></P>
+    </div>
+    
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="ChatBot"
+      agent-id="5c6fe6dc-b59f-44fd-81af-f5de8c51018d"
+      language-code="es"
+    ></df-messenger>
 </body>
-<h1>Calculadora de IMC: indice de masa corporal</h1>
-<p>Ingrese su peso</p> <input type="number" id="kg">
-<p>Ingrese su altura</p> <input type="text" ide="m">
-<button id="calc">Calcular</button>
 
+<script src="main.js"></script>
 
-<p>IMC: <span id="imc"></span></p>
-<p>Usted tiene: <span id="lectura"></span></p>
-
-
-<table border width="28%" heigth="300px">
-    <tr align="center" ide="Inicio">
-        <th>Indice de masa corporal</th>
-        <th>Rango</th>
-    </tr>
-    <tr id="Delgadez">
-<td>18.5 o menos</td>
-<td>Por debajo del peso</td>
-    </tr>
-    <tr id=PesoS">
-        <td>18.5 - 24.9</td>
-        <td>Peso Saludable</td>
-    </tr>
-    <tr id=Sobrepeso">
-        <td>25.0 - 29.9</td>
-        <td>Con Sobrepeso</td>
-    </tr>
-    <tr id=ObecidadS">
-        <td>30.0 - 39.9</td>
-        <td>Obecidad</td>
-    </tr>
-    <tr id=ObecidadE">
-        <td>40 o mas</td>
-        <td>Obecidad Extrema o de Alto Riesgo</td>
-    </tr>
-</table>
-<script type="text/javascrip">
-    calc= document.getElementById("calcl");
-    kg= document.getElementById("kg");
-    m= document.getElementById("m");
-    imc= document.getElementById("imc");
-    lectura= document.getElementById("lectura");
-
-    calc.onclick = function(){
-        if (kg.value!="" && m.value!="") {
-            imcx= (kg.value / (m.value * m.value));
-            imc=
-        }
-    };
-
-</script>
 </html>

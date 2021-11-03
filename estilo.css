@@ -74,4 +74,55 @@ body{
         color: #414141;
         padding: 1rem 0;
     }
-    
+     .marco-calculadora{
+        display: grid; 
+         align-content: center;
+         min-height: 100vh;
+         grid-template-columns: repeat(4, 120px);
+         grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+         color: #ffff;
+         width: 400px;
+         position: relative;
+         left: 400px;
+     }
+     .salida{
+         grid-column: 1 / -1;
+         background-color: #5d5d5d;
+         display: flex;
+         align-items: flex-end;
+         justify-content: space-around;
+         flex-direction: column;
+         padding: 15px;
+         word-wrap: break-word;
+         word-break: break-all;
+         
+         
+     }
+     .marco-calculadora > button{
+         grid-column: 1 / -1;
+         height: 30px;
+         cursor: pointer;
+         font-size: 1rem;
+         color: #ffff;
+         background-color: #5d5d5d;
+         border: 2px solid #76b900;
+     }
+     .marco-calculadora > p{
+         color:#333;
+         display: flex;
+         align-items: flex-end;
+         justify-content: space-around;
+         flex-direction: column;
+         padding: 15px;
+         word-wrap: break-word;
+         word-break: break-all;
+         
+     }
+     .marco-calculadora > button:hover{
+background-color: #76b900;
+     }
+     .pantalla{
+         color: #5d5d5d;
+         font-size: 1.85rem;
+         text-align: right;
+     }
