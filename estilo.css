@@ -37,7 +37,92 @@ body{
         background: #76b900;
     
     }
-    
+    .info .infoge img{
+        width: 38vw;
+        float: right;
+        
+    }
+    .info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        max-width: 1000%;
+        margin: auto;
+    }
+    .info .content h2{
+        font-size: 2.5rem;
+        color: #333;
+        text-transform: uppercase;
+    }
+    .info .content ul{
+        font-size: 1.4rem;
+        color: #414141;
+        padding: 1rem 0;
+    }
+    .info .content h2 span{
+        color: #76b900;
+        text-transform: uppercase;
+    }
+    .info .content p{
+        font-size: 1.4rem;
+        color: #414141;
+        padding: 1rem 0;
+    }
+    .inf .infge img{
+        width: 40vw;
+        float: right;
+    }
+    .inf{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        max-width: 1000%;
+        margin: auto;
+    }
+    .inf .content h2{
+        font-size: 2.5rem;
+        color: #333;
+        text-transform: uppercase;
+    }
+    .inf .content h2 span{
+        color: #76b900;
+        text-transform: uppercase;
+    }
+    .inf .content p{
+        font-size: 1.4rem;
+        color: #414141;
+        padding: 1rem 0;
+    }
+
+  
+    .infor .inforge img{
+        width: 55vw;
+        float: center;
+    }
+    .infor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        max-width: 1000%;
+        margin: auto;
+    }
+    .infor .content h2{
+        font-size: 2.5rem;
+        color: #333;
+        text-transform: uppercase;
+    }
+    .infor .content h2 span{
+        color: #76b900;
+        text-transform: uppercase;
+    }
+    .infor .content p{
+        font-size: 1.4rem;
+        color: #414141;
+        padding: 1rem 0;
+    }
     .inicio{
         display: flex;
         align-items: center;
@@ -112,8 +197,7 @@ body{
          display: flex;
          align-items: flex-end;
          justify-content: space-around;
-         flex-direction: column;
-         padding: 15px;
+         padding: 30vw;
          word-wrap: break-word;
          word-break: break-all;
          
@@ -126,3 +210,4 @@ background-color: #76b900;
          font-size: 1.85rem;
          text-align: right;
      }
+    
